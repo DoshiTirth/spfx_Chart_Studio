@@ -1,0 +1,4 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/heft/heft.schema.json",
+  "extends": "@microsoft/sp-build-web/lib/heft/HeftConfigDefaults.json"
+}

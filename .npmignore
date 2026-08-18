@@ -1,0 +1,11 @@
+*.scss
+gulpfile.js
+release
+src
+temp
+tsconfig.json
+tslint.json
+*.log
+*.sppkg
+.vscode
+.git

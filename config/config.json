@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "chart-studio-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/chartStudio/ChartStudioWebPart.js",
+          "manifest": "./src/webparts/chartStudio/ChartStudioWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ChartStudioWebPartStrings": "lib/webparts/chartStudio/loc/{locale}.js"
+  }
+}

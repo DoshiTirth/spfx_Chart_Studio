@@ -1,0 +1,12 @@
+node_modules
+lib
+dist
+temp
+release
+solution
+*.sppkg
+.heft
+.rush
+.DS_Store
+*.log
+.env

@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.14.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.7",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.23.0",
+    "libraryName": "spfx-chart-studio",
+    "libraryId": "e1b4d8a3-6f2c-4a9e-8d1b-3f6a9c2e7b48",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-chart-studio",
+    "solutionShortDescription": "SPFx Chart Studio web part",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

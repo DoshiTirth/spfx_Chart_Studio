@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b6d2e9a4-7c1f-4b3d-9e2a-6c8f1a4d7b93",
+  "alias": "ChartStudioWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Advanced" },
+      "title": { "default": "Chart Studio" },
+      "description": { "default": "A multi-chart canvas — add, configure, and arrange charts backed by SharePoint lists" },
+      "officeFabricIconFontName": "BarChartVerticalFill",
+      "properties": {
+        "studioTitle": "Chart Studio",
+        "tilesJson": "[]"
+      }
+    }
+  ]
+}

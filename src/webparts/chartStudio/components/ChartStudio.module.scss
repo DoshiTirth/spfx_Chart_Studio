@@ -1,0 +1,136 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.chartStudio {
+  font-family: $ms-font-family-fallbacks;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1b1b1f;
+  }
+
+  .addButton {
+    background: #2f6fed;
+    color: #ffffff;
+    border-radius: 6px;
+
+    &:hover {
+      background: #2559c9;
+      color: #ffffff;
+    }
+  }
+
+  .canvas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+
+    @media (max-width: 780px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .tile {
+    background: #f7f8fa;
+    border-radius: 10px;
+    border: 1px solid #edeef1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tileHalf {
+    grid-column: span 1;
+  }
+
+  .tileFull {
+    grid-column: 1 / -1;
+  }
+
+  .tileHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 14px;
+    border-bottom: 1px solid #edeef1;
+    background: #ffffff;
+  }
+
+  .tileTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1b1b1f;
+  }
+
+  .tileControls {
+    display: flex;
+    gap: 2px;
+  }
+
+  .tileBody {
+    padding: 16px;
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tilePlaceholder {
+    font-size: 13px;
+    color: #8a8f98;
+    text-align: center;
+  }
+
+  .chartCanvas {
+    position: relative;
+    width: 100%;
+    height: 260px;
+  }
+}
+
+// --- Panel styling: matches the standard SharePoint property-pane look & feel ---
+.panelBody {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 4px;
+}
+
+.panelSection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 0;
+}
+
+.sectionLabel {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #6b6f76;
+  margin-bottom: 2px;
+}
+
+.panelField {
+  margin-top: 4px;
+}
+
+.panelFooter {
+  display: flex;
+  gap: 10px;
+  padding: 12px 0;
+}
